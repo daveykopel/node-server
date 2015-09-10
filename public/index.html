@@ -19,35 +19,42 @@
     <script src="js/main.js"></script>
   </head>
   <body>
+
+    <!-- NAVBAR SECTION -->
     <header>
       <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#home"><img src="images/logo.png" alt="logo"/></a>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-    </header>
-    <div class="container>">
-      <div class="home">
-        <div class="large-logo">
-          <img src="images/stamp-logo.png" alt="large logo" />
-        </div>
-      </div>
-      <section id="about" class=" white  scrollspy">
-        <div class="img-cover">
-          <div class="white about-context">
-            <h1>About</h1>
-            <p>Charrua Birra y Empanadas is the creation of Carlos Uruguay. Founded in 2014 they are located on 150 Calle Cruz. Delicious empanadas and a wide variety of beer only begin to explain what makes this place so special. An area locals favorite, Birra y Empanadas has become a secret treasure spot in old san juan daily life. Many come for the delicious empanadas, but most come for its unique and magical setting. Open Monday to Saturday from 2pm to Midnight. Charruas Birra y Empanadas invites you to come and experience the magic.</p>
+        <nav>
+          <div class="nav-wrapper">
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home"><img src="images/logo.png" alt="logo"/></a>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+      <div class="large-logo">
+        <img src="images/stamp-logo.png" alt="large logo" />
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class=" white  scrollspy">
+      <div class="img-cover">
+        <div class="white about-context">
+          <h1>About</h1>
+          <p>Charrua Birra y Empanadas is the creation of Carlos Uruguay. Founded in 2014 they are located on 150 Calle Cruz. Delicious empanadas and a wide variety of beer only begin to explain what makes this place so special. An area locals favorite, Birra y Empanadas has become a secret treasure spot in old san juan daily life. Many come for the delicious empanadas, but most come for its unique and magical setting. Open Monday to Saturday from 2pm to Midnight. Charruas Birra y Empanadas invites you to come and experience the magic.</p>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
     <section id="menu" class="white scrollspy">
       <div class="row-container skulls-img">
         <div class="container">
@@ -67,136 +74,96 @@
               <li class="col m6">Chorizo&Espinacas</li>
             </ul>
           </div>
-
         </div>
-
-      </div>
-
       </div>
     </section>
 
-  </div>
-</section>
-<section id="gallery" class="white  scrollspy">
-  <div class="row-container skulls-container">
-    <div class="slider">
-      <ul class="slides">
-        <li>
-          <img src="images/bar.jpg"> <!-- random image -->
-          <!-- <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div> -->
-        </li>
-        <li>
-          <img src="images/lamp.jpg"> <!-- random image -->
-          <!-- <div class="caption left-align">
-            <h3>Left Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div> -->
-        </li>
-        <li>
-          <img src="images/tables.jpg"> <!-- random image -->
-          <!-- <div class="caption right-align">
-            <h3>Right Aligned Caption</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div> -->
-        </li>
-        <li>
-          <img src="images/lamp2.jpg"> <!-- random image -->
-          <!-- <div class="caption center-align">
-            <h3>This is our big Tagline!</h3>
-            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-          </div> -->
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="white  scrollspy">
+      <div class="row-container skulls-container">
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="images/bar.jpg">
+            </li>
+            <li>
+              <img src="images/lamp.jpg">
+            </li>
+            <li>
+              <img src="images/tables.jpg">
+            </li>
+            <li>
+              <img src="images/lamp2.jpg">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-
-
-
+    <!-- CONTACT SECTION -->
     <section id="contact" class="white scrollspy">
       <div class="row container">
-
-      <img class="contact-image" src="../images/CafeBar.jpg">
+        <img class="contact-image" src="../images/CafeBar.jpg">
       </div>
-      <div class="container row"><form class="col m6 offset-m3 s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-            <label for="first_name">First Name</label>
+      <div class="container row">
+        <form class="col m6 offset-m3 s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
           </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">Last Name</label>
+          <div class="row">
+            <div class="input-field col s12">
+              <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+              <label for="disabled">Disabled</label>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-            <label for="disabled">Disabled</label>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="password" type="password" class="validate">
-            <label for="password">Password</label>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
-            <label for="email">Email</label>
-          </div>
-        </div>
-         <button class="btn waves-effect waves-light center-valign" type="submit" name="action">Submit</button>
-      </form>
-    </div></div>
-
-
+           <button class="btn waves-effect waves-light center-valign" type="submit" name="action">Submit</button>
+        </form>
       </div>
     </section>
+
+    <!-- FOOTER SECTION -->
     <footer class="page-footer">
-        <div class="container">
-          <div class="row">
-            <div class="row">
-
-
-
-            </div>
-            <div class="col m12 s12 my-footer">
-              <ul>
-                <li>
-                  <a class="footer-link" href="https://www.facebook.com/Charrua-Bistro-cafe-birra-y-empanadas-451668851638838/timeline/">
-                    <i class="fa fa-facebook-official fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a class="footer-link" href="#instagram link">
-                    <i class="fa fa-instagram fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a class="footer-link" href="#twitter-link">
-                    <i class="fa fa-twitter-square fa-3x"></i>
-                  </a>
-                </li>
-                <li>
-                  <a class="footer-link" href="http://www.yelp.es/biz/charrua-birra-and-empanada-san-juan">
-                    <i class="fa fa-yelp fa-3x"></i>
-                  </a>
-                </li>
-
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col m12 s12 my-footer">
+            <ul>
+              <li><a class="footer-link" href="https://www.facebook.com/Charrua-Bistro-cafe-birra-y-empanadas-451668851638838/timeline/">
+                <i class="fa fa-facebook-official fa-3x"></i>
+              </a></li>
+              <li><a class="footer-link" href="#instagram link">
+                <i class="fa fa-instagram fa-3x"></i>
+              </a></li>
+              <li><a class="footer-link" href="#twitter-link">
+                <i class="fa fa-twitter-square fa-3x"></i>
+              </a></li>
+              <li><a class="footer-link" href="http://www.yelp.es/biz/charrua-birra-and-empanada-san-juan">
+                <i class="fa fa-yelp fa-3x"></i>
+              </a></li>
+            </ul>
           </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
+      </div>
+      <div class="footer-copyright"></div>
+    </footer>
 
-          </div>
-        </div>
-      </footer>
   </body>
 </html>
